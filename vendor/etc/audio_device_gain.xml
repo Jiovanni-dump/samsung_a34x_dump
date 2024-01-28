@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <card name="mt6877mt6359" />
+    <mixercontrol>
+        <versioncontrol value="1.01">
+        </versioncontrol>
+        <!-- These are the initial mixer settings -->
+        <!--cs35l41 setting-->
+        <!--custom speaker output-->
+        <path name="GAIN_SPK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_SPK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_DUAL_SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_DUAL_SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_DUAL_SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_DUAL_SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_DUAL_SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_DUAL_SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_DUAL_SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_DUAL_SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_RCV_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_RCV_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_RCV_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_RCV_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_RCV_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_RCV_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+
+        <path name="GAIN_RCV_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+        </path>
+        <path name="GAIN_RCV_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+        </path>
+ 
+    </mixercontrol>
+</root>

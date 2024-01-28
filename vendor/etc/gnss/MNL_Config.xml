@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mnl_config version="20011001.6.0S.99" type="gps">
+
+    <feature>GLP
+        <version>2.0</version>
+        <config>1</config>
+        <format>Enable</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>FilterBW
+        <version>1.0</version>
+        <config>0</config>
+        <format>1:narrow band, 2:wide band, 3:MD</format>
+        <setting>3</setting>
+    </feature>
+
+    <feature>CAIC_MDBAND
+        <version>1.0</version>
+        <config>0</config>
+
+        <format>MD Band</format>
+        <setting>13</setting>        
+        <format>L1 CAIC FrequencyHz</format>
+        <setting>1603100000,1603200000,1603300000,1603400000,1603500000,1603600000,1603700000,1603800000,1603900000,1603910000</setting>
+        <format>L5 CAIC FrequencyHz</format>
+        <setting>1173100000,1173200000,1173300000,1173400000,1173500000,1173600000,1173700000,1173800000,1173900000,1173910000</setting>
+
+        <format>MD Band</format>
+        <setting>14</setting> 
+        <format>L1 CAIC FrequencyHz</format>
+        <setting>1604100000,1604200000,1604300000,1604400000,1604500000,1604600000,1604700000,1604800000,1604900000,1604910000</setting>
+        <format>L5 CAIC FrequencyHz</format>
+        <setting>1174100000,1174200000,1174300000,1174400000,1174500000,1174600000,1174700000,1174800000,1174900000,1174910000</setting>              
+    </feature>
+
+    <feature>CAIC
+        <version>1.0</version>
+        <config>0</config>
+        <format>L1 CAIC FrequencyHz</format>
+        <setting>1560000000</setting>
+        <format>L5 CAIC FrequencyHz</format>
+        <setting>1170000000</setting>
+    </feature>
+
+    <feature>DCB
+        <version>1.0</version>
+        <config>1</config>
+        <format>L5_DCB_GPS,L5_DCB_QZSS,L5_DCB_CNSS,L5_DCB_GALILEO</format>
+        <setting>2.78,2.80,8.84,2.18</setting>
+    </feature>
+
+    <feature>L1Only
+        <version>1.0</version>
+        <config>1</config>
+        <format>L1 only: 1</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>L5Test
+        <version>1.0</version>
+        <config>0</config>
+        <format>Search and used GPS L5 satellites according to the healthy status: 0, Search and used GPS L5 satellites regardless of its healthy status: 1</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>MDTime
+        <version>1.0</version>
+        <config>1</config>
+        <format>featureOption,requestInterval,sizeOfWindow,syncBackNum(optional)</format>
+        <setting>1,5000,1500,0</setting>
+    </feature>
+
+    <feature>CoTMS
+        <version>2.5</version>
+        <config>1</config>
+        <format>RTS,TEP</format>
+        <setting>1,2</setting>
+    </feature>
+
+    <feature>Bluesky
+        <version>1.0</version>
+        <config>1</config>
+        <format>disable:0,enable BS_v1:1,enable BS_v2:2</format>
+        <setting>2</setting>
+    </feature>
+    
+    <feature>IFB
+        <version>1.0</version>
+        <config>1</config>
+        <format> CH:-7 to 6 </format>
+        <setting>-10.36,-9.72,-7.77,-2.14,-1.15,-4.70,-1.15,0,-0.76,-0.42,-1.26,-1.93,-3.74,-5.19</setting>
+    </feature>
+    
+    <feature>GGTO
+        <version>1.0</version>
+        <config>1</config>
+        <format> GLONASS time offset, BEIDOU time offset, GALILEO time offset, NAVIC time offset, Unit: meter </format>
+        <setting>11.26,-7.34,2.70,20.94</setting>
+    </feature>
+    
+</mnl_config>

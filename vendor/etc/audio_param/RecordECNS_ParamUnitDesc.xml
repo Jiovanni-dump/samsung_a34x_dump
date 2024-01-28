@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamUnitDesc tab_name="Voice" version="1.0">
+	<CategoryTypeList>
+		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
+			<Category name="Default"/>
+		</CategoryType>
+		<CategoryType name="Profile" wording="Audio Path">
+			<Category name="Handset" alias="Handset 2mic NR,Handset no 2mic NR,Normal"/>
+			<Category name="BT earphone" alias="BT earphone,BT_Earphone"/>
+			<Category name="USB" alias="Usb_Headset,Usb_Headphone"/>
+		</CategoryType>
+	</CategoryTypeList>
+    <ParamUnit>
+        <Param name="ECNS param" type="short_array"/>
+    </ParamUnit>
+</ParamUnitDesc>

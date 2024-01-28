@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mixer>
+    <!-- default -->
+    <path name="default-playback">
+        <ctl name="Headset Playback Volume" value="101" />
+    </path>
+
+    <path name="default-capture">
+        <ctl name="Headset Capture Volume" value="50" />
+    </path>
+    <!-- end of default -->
+
+    <!-- Play Scenario  -->
+    <path name="playback-others">
+        <ctl name="Headset Playback Volume" value="101" />
+    </path>
+
+    <path name="playback-ring_alarm">
+        <ctl name="Headset Playback Volume" value="62" />
+    </path>
+
+    <path name="playback-notification">
+        <ctl name="Headset Playback Volume" value="62" />
+    </path>
+    <!-- end of Play Scenario -->
+
+    <!-- Recording Scenario  -->
+    <path name="record-soundRecording">
+        <ctl name="Headset Capture Volume" value="10" />
+    </path>
+
+    <path name="record-cameraRecording">
+        <ctl name="Headset Capture Volume" value="10" />
+    </path>
+
+    <path name="record-voiceRecognition">
+        <ctl name="Headset Capture Volume" value="57" />
+    </path>
+    <!-- end of Recording Scenario -->
+
+    <!-- speech Scenario -->
+    <path name="speech-NB-GSM">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-NB-WCDMA">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-NB-VoLTE">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-NB-ViLTE">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-NB-CDMA">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-WB-GSM">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-WB-WCDMA">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-WB-VoLTE">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-WB-ViLTE">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-WB-CDMA">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-SWB-GSM">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-SWB-WCDMA">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-SWB-VoLTE">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-SWB-ViLTE">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-SWB-CDMA">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="speech-Lpbk_USB">
+        <ctl name="Headset Playback Volume" value="100" />
+    </path>
+
+    <path name="speechmic-NB-GSM">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-NB-WCDMA">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-NB-VoLTE">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-NB-ViLTE">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-NB-CDMA">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-WB-GSM">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-WB-WCDMA">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-WB-VoLTE">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-WB-ViLTE">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-WB-CDMA">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-SWB-GSM">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-SWB-WCDMA">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-SWB-VoLTE">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-SWB-ViLTE">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-SWB-CDMA">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="speechmic-Lpbk_USB">
+        <ctl name="Headset Cpature Volume" value="40" />
+    </path>
+    <!-- end of call Scenario -->
+
+    <!-- VoIP Scenario -->
+    <path name="voip-VoIP">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="voipmic-VoIP">
+        <ctl name="Headset Capture Volume" value="42" />
+    </path>
+    <!-- end of VoIP Scenario -->
+
+    <!-- Cust Scenario -->
+    <path name="voip-VxWifi-NB">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="voip-VxWifi-WB">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="voip-VxWifi-SWB">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="voip-VT">
+        <ctl name="Headset Playback Volume" value="108" />
+    </path>
+
+    <path name="voipmic-VxWifi-NB">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="voipmic-VxWifi-WB">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="voipmic-VxWifi-SWB">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+
+    <path name="voipmic-VT">
+        <ctl name="Headset Cpature Volume" value="42" />
+    </path>
+    <!-- end of Cust Scenario -->
+
+    <path name="dummy">
+        <!-- not exsit -->
+    </path>
+</mixer>

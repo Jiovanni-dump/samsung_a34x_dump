@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AudioParam version="1.2">
+  <ParamTree>
+    <Param path="Voice,1" param_id="1"/>
+    <Param path="VoIPv2,1" param_id="2"/>
+    <Param path="Record,1" param_id="3"/>
+  </ParamTree>
+  <ParamUnitPool>
+    <ParamUnit param_id="1">
+      <Param name="Button name" value="ECNS"/>
+      <Param name="Button size" value="0x320,0x64,0x5E,0x2A"/>
+      <Param name="Font size" value="12"/>
+      <Param name="UI template" value="list"/>
+      <Param name="Template info" value="SpeechECNS_ParamNameList.ini"/>
+      <Param name="AudioType of visibility" value="SpeechUI"/>
+      <Param name="Param of visibility" value="ECNS visibility"/>
+      <Param name="AudioType of data" value="SpeechECNS"/>
+      <Param name="Param of data" value="ECNS param"/>
+    </ParamUnit>
+    <ParamUnit param_id="2">
+      <Param name="Button name" value="ECNS"/>
+      <Param name="Button size" value="0x320,0x64,0x5E,0x2A"/>
+      <Param name="Font size" value="12"/>
+      <Param name="UI template" value="list"/>
+      <Param name="Template info" value="VoIP2ECNS_ParamNameList.ini"/>
+      <Param name="AudioType of visibility" value="VoIPv2UI"/>
+      <Param name="Param of visibility" value="ECNS visibility"/>
+      <Param name="AudioType of data" value="VoIPECNS"/>
+      <Param name="Param of data" value="ECNS param"/>
+    </ParamUnit>
+    <ParamUnit param_id="3">
+      <Param name="Button name" value="ECNS"/>
+      <Param name="Button size" value="0x280,0xC8,0x5E,0x2A"/>
+      <Param name="Font size" value="12"/>
+      <Param name="UI template" value="list"/>
+      <Param name="Template info" value="RecordECNS_ParamNameList.ini"/>
+      <Param name="AudioType of visibility" value="RecordUI"/>
+      <Param name="Param of visibility" value="ECNS visibility"/>
+      <Param name="AudioType of data" value="RecordECNS"/>
+      <Param name="Param of data" value="ECNS param"/>
+    </ParamUnit>
+  </ParamUnitPool>
+</AudioParam>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamUnit>
+	<Param name="0x04e8-0x0000" value="MixerUSBDefault_AudioParam.xml"/>
+	<Param name="0x04e8-0xa04b" value="MixerUSBGray_AudioParam.xml"/>
+	<Param name="0x04e8-0xa04c" value="MixerUSBGray_AudioParam.xml"/>
+</ParamUnit>

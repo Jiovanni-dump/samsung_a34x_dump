@@ -1,0 +1,9 @@
+{
+	"version_id": "v6",
+	"tag" : "6.14",
+	"model_type" : "npu",
+	"precision" : "qasymm8",
+	"complier" : "mtk_npu_v5.3",
+	"latency" : "0",
+	"model_path" : "/vendor/etc/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.dla"
+}

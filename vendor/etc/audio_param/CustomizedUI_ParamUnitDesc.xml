@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamUnitDesc version="1.2">
+	<CategoryTypeList>
+		<CategoryType name="TabOfAudioType">
+			<Category name="Voice"/>
+			<Category name="VoIPv2"/>
+			<Category name="Playback"/>
+			<Category name="Record"/>
+		</CategoryType>
+		<CategoryType name="ButtonIndex">
+			<Category name="1"/>
+			<Category name="2"/>
+		</CategoryType>
+	</CategoryTypeList>
+	<ParamUnit>
+		<Param name="Button name" type="string"/>
+		<Param name="Button size" type="uint_array"/>
+		<Param name="Font size" type="uint"/>
+		<Param name="UI template" type="string"/>
+		<Param name="Template info" type="string"/>
+		<Param name="AudioType of visibility" type="string"/>
+		<Param name="Param of visibility" type="string"/>
+		<Param name="AudioType of data" type="string"/>
+		<Param name="Param of data" type="string_array"/>
+		<Param name="Wording of data" type="string_array"/>
+	</ParamUnit>
+</ParamUnitDesc>
