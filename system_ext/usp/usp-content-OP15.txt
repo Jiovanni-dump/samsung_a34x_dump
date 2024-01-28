@@ -1,0 +1,9 @@
+[Package-start]
+com.mediatek.entitlement.o2
+com.mediatek.op15.ims
+[Package-end]
+[Property-start]
+persist.vendor.operator.optr=OP15
+persist.vendor.operator.spec=SPEC0200
+persist.vendor.operator.seg=SEGDEFAULT
+[Property-end]

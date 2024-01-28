@@ -1,0 +1,7 @@
+[Package-start]
+[Package-end]
+[Property-start]
+persist.vendor.operator.optr=OP20
+persist.vendor.operator.spec=SPEC0200
+persist.vendor.operator.seg=SEGDEFAULT
+[Property-end]

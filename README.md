@@ -1,0 +1,14 @@
+# a34xxx-user 14 UP1A.231005.007 A346BXXS5BWL2 release-keys
+- manufacturer: samsung
+- platform: mt6877
+- codename: a34x
+- flavor: a34xxx-user
+- release: 14
+- id: UP1A.231005.007
+- incremental: A346BXXS5BWL2
+- tags: release-keys
+- fingerprint: samsung/a34xxx/a34x:12/SP1A.210812.016/A346BXXS5BWL2:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a34xxx-user-14-UP1A.231005.007-A346BXXS5BWL2-release-keys
+- repo: samsung_a34x_dump

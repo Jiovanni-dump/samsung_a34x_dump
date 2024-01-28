@@ -1,0 +1,12 @@
+[Package-start]
+com.mediatek.op08.systemui
+com.mediatek.op08.settings
+com.mediatek.op08.phone
+com.mediatek.op08.dialer
+com.mediatek.deviceconfig.entitlement
+[Package-end]
+[Property-start]
+persist.vendor.operator.optr=OP08
+persist.vendor.operator.spec=SPEC0200
+persist.vendor.operator.seg=SEGDEFAULT
+[Property-end]

@@ -1,0 +1,8 @@
+[Package-start]
+com.mediatek.op236.ims
+[Package-end]
+[Property-start]
+persist.vendor.operator.optr=OP236
+persist.vendor.operator.spec=SPEC0200
+persist.vendor.operator.seg=SEGDEFAULT
+[Property-end]
