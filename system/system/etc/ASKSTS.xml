@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<VERSION value="20230714"/>
+<TRUSTEDSTORE>
+	<STORE name="PrePackageInstaller">
+        <DUMMY value="0"/>
+    </STORE>
+</TRUSTEDSTORE>
+

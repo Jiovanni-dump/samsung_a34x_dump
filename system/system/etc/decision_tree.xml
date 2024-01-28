@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<decision_tree type="node" variable="linkSpeedMbps" value="100" operator="gt">
+    <trueBranch type="node" variable="successRate" value="0.5" operator="gt">
+        <trueBranch type="node" variable="ccaRo" value="0.55" operator="lt">
+            <trueBranch type="action" quality="good" />
+            <falseBranch type="action" quality="bad" />
+        </trueBranch>
+        <falseBranch type="action" quality="bad" />
+    </trueBranch>
+    <falseBranch type="action" quality="bad" />
+</decision_tree>
+
+

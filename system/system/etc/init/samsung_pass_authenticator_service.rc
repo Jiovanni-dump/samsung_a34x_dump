@@ -1,0 +1,5 @@
+# Samsung Pass Authenticator Service
+on post-fs-data
+    mkdir /data/vendor/samsungpass 0700 system system
+    mkdir /data/.fido 0700 system system encryption=Require
+# Samsung Pass Authenticator Service

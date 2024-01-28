@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<VERSION value="20230607"/>
+<ADP version="3.1">
+    <HASHVALUE name="1b678c80fc9940d60d4ad7b3dd41ef886e196bb633c75611a5d94e1c63fab0bf">
+        <pattern value="^\d{9}\z">
+            <hashCode value="310200015"/>
+            <versionType value="5"/>
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="04e0eacb0b3ce7dcb5b5d2f074bb993db66d36a1620e56d8f3f279ab090aef05">
+        <pattern value="[0-9]+">
+            <hashCode value="302300000" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="22a9dc376f650ceecadad37018c4751fcb93b5d1b875742b1ba3158845a1a21c">
+        <pattern value="[0-9]+">
+            <hashCode value="4" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="5b94750bfbf9a643ee96cdf0bc86f7f461bb9f152a7badb78020cb18f80c7a07">
+        <pattern value="[0-9]+">
+            <hashCode value="33" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="8da6e55a0a7e66b8550c85105c25b9a8d5df90dfde1000cc6f3b5a263e48e71e">
+        <pattern value="[0-9]+">
+            <hashCode value="33" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="bf22fbb26136cbea3554044f1c7c469a2631cd39201276cc3ce195518d98fa7a">
+        <pattern value="[0-9]+">
+            <hashCode value="16" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="cb0b7b0e5d9514716a9bc12e8f58364f392d0f9fd47d9e6b3f2b0ce05527ad40">
+        <pattern value="[0-9]+">
+            <hashCode value="930000017" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="9c8ceaa058eebc84e908936f03beab423fdab6da84825a8a78382cb635ae6673">
+        <pattern value="[0-9]+">
+            <hashCode value="33" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="36d9f8e7de2c42f751b8c0faa2376899638bb6e022b1fb28f92f7f499b9153b7">
+        <pattern value="[0-9]+">
+            <hashCode value="33" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="bb4d4704ccf90ee3747d110c99efd7d09279f918d7607c4c0c4ca0bd614a7d9a">
+        <pattern value="[0-9]+">
+            <hashCode value="1" />
+            <versionType value="1703114115" />
+            <format value="([0-9]+)" />
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="ce19cc789abd90778cb63530a92c1b253cf62ad749035785d868e80d65c4ece1">
+        <pattern value="^\d{10}\z">
+            <hashCode value="1400039000"/>
+            <versionType value="2"/>
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="2cc4d029ad24cfdd31e8bd1bcb2a83fe91df744b9b17490f407c223ab99b1ddf">
+        <pattern value="^\d{10}\z">
+            <hashCode value="1180423503"/>
+            <versionType value="2"/>
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="c5e9a5dc63a94fbd8d8fdeed3da9dd01461da2be997985e5b0c3cf14bfa15c32">
+        <pattern value="^\d{4}00\d{3}\z">
+            <hashCode value="360000014"/>
+            <versionType value="3"/>
+        </pattern>
+        <pattern value="^\d{4}01\d{3}\z">
+            <hashCode value="350801000"/>
+            <versionType value="3"/>
+        </pattern>
+    </HASHVALUE>
+    <HASHVALUE name="83a3bb52f5f9fd7b10d8091ba3d05423a056a92865680f2f8c823a65c2dd7fb4">
+        <pattern value="^4\d{8}\z">
+            <hashCode value="454909110"/>
+            <versionType value="2"/>
+        </pattern>
+        <pattern value="^6\d{8}\z">
+            <hashCode value="660962110"/>
+            <versionType value="2"/>
+        </pattern>
+    </HASHVALUE>
+</ADP>

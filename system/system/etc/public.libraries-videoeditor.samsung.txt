@@ -1,0 +1,4 @@
+libvesgraphicframework.videoeditor.samsung.so 64
+libvesinterface.videoeditor.samsung.so 64
+libvesframework.videoeditor.samsung.so 64
+libveframework.videoeditor.samsung.so 64

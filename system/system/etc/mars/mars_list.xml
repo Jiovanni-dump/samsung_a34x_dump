@@ -1,0 +1,363 @@
+<mars-list>
+    <!-- These are the packages that are allow-listed to excessive fg-service running.
+         in FGS Task Manager -->
+    <allow-in-fgs package="com.sec.android.app.shealth" />
+    <allow-in-fgs package="com.samsung.android.smartmirroring" />
+    <allow-in-fgs package="com.samsung.android.retail.screensaver" />
+    <allow-in-fgs package="com.samsung.android.app.parentalcare" />
+    <allow-in-fgs package="com.sec.android.easyMover" />
+
+    <!-- MARs policy exception packages -->
+    <except-mars-policy policynum="0" condition="24" matchType="contains" package=".cts." />
+    <except-mars-policy policynum="0" condition="24" matchType="endsWith" package=".cts" />
+    <except-mars-policy policynum="0" condition="24" matchType="equals" package="android.app.stubs" />
+    <except-mars-policy policynum="0" condition="24" matchType="equals" package="android.server.wm.backgroundactivity.appa" />
+    <except-mars-policy policynum="0" condition="24" matchType="equals" package="android.server.wm.backgroundactivity.appb" />
+    <except-mars-policy policynum="0" condition="24" matchType="equals" package="com.samsung.accessory" />
+    <except-mars-policy policynum="2" condition="1" matchType="equals" package="com.sec.android.app.shealth" />
+    <except-mars-policy policynum="0" condition="10" matchType="equals" package="com.sec.aecmonitor" />
+    <except-mars-policy policynum="0" condition="10" matchType="equals" package="com.salab.act" />
+    <except-mars-policy policynum="4" condition="0" matchType="equals" package="com.samsung.android.app.cocktailbarservice" />
+
+    <!-- MARs policy AdjustRestriction packages -->
+    <allow-china-app restrictionType="1" isAllowed="allow" callee="com.eg.android.AlipayGphone" matchType="equals" action="com.eg.android.AlipayGphone.IAlixPay" />
+    <allow-china-app restrictionType="1" isAllowed="allow" callee="com.alipay.android.app" matchType="equals" action="com.eg.android.AlipayGphone.IAlixPay" />
+    <allow-china-app restrictionType="1" isAllowed="allow" callee="com.tencent.mobileqq" />
+    <allow-china-app restrictionType="1" isAllowed="allow" callee="com.tencent.mm" />
+    <allow-china-app restrictionType="1" isAllowed="allow" callee="com.cmcc.sso" />
+    <allow-china-app restrictionType="1" isAllowed="allow" callee="com.cmdm.rcs" />
+
+    <block-china-app restrictionType="2" isAllowed="block" callee="com.baidu.netdisk_ss" caller="com.sec.android.cloudagent" />
+    <block-china-app restrictionType="2" isAllowed="block" caller="com.samsung.android.opencalendar" />
+
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.samsung.accessory" matchType="equals" action="android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.samsung.accessory" matchType="equals" action="com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.samsung.accessory" matchType="equals" action="android.accessory.device.action.REGISTER_AFTER_INSTALL" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.samsung.accessory" matchType="equals" action="com.samsung.accessory.action.REGISTER_AGENT" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="startsWith" action="com.samsung.android.cocktail.action.COCKTAIL" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="startsWith" action="com.samsung.android.cocktail.v2.action.COCKTAIL" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="startsWith" action="com.samsung.android.app.memo.EDGE_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.wssnps" matchType="startsWith" action="com.sec.android.intent.action.REQUEST_BACKUP_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.wssnps" matchType="startsWith" action="com.sec.android.intent.action.REQUEST_RESTORE_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.wssnps" matchType="startsWith" action="com.samsung.android.intent.action.REQUEST_BACKUP_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.wssnps" matchType="startsWith" action="com.samsung.android.intent.action.REQUEST_RESTORE_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.wssnps" matchType="startsWith" action="com.samsung.android.intent.action.REQUEST_VERIFY" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.wssnps" matchType="startsWith" action="com.samsung.android.intent.action.RESPONSE_VERIFY" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.sec.android.easyMover" matchType="startsWith" action="com.sec.android.intent.action.REQUEST_BACKUP_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.sec.android.easyMover" matchType="startsWith" action="com.sec.android.intent.action.REQUEST_RESTORE_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.sec.android.easyMover" matchType="startsWith" action="com.samsung.android.intent.action.REQUEST_BACKUP_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.sec.android.easyMover" matchType="startsWith" action="com.samsung.android.intent.action.REQUEST_RESTORE_" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.sec.android.easyMover" matchType="startsWith" action="com.samsung.android.intent.action.REQUEST_VERIFY" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" caller="com.sec.android.easyMover" matchType="startsWith" action="com.samsung.android.intent.action.RESPONSE_VERIFY" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="android.intent.action.MEDIA_BUTTON" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.samsung.android.intent.action.MEDIA_BUTTON" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.sec.android.app.dictionary.SEARCH" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.sec.android.app.dictionary.SEARCH_WORD" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.sec.android.app.dictionary.CLOSE" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.sec.android.contextaware.HEADSET_PLUG" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="android.intent.action.PACKAGE_NEEDS_VERIFICATION" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.samsung.android.intent.action.PACKAGE_NEEDS_VERIFICATION2" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" callee="com.samsung.android.app.music.chn" caller="com.samsung.android.app.sreminder" matchType="startsWith" action="com.sec.android.app.music" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" callee="com.samsung.android.scloud" caller="com.sec.spp.push" matchType="equals" action="com.sec.spp.RegistrationChangedAction" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" callee="com.samsung.android.scloud" caller="com.sec.spp.push" matchType="equals" action="tj9u972o46" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.samsung.app.highlightvideo.Analyse" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" callee="com.samsung.android.galaxycontinuity" caller="com.sec.spp.push" matchType="equals" action="8bf1f59dc1d6217c" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" callee="com.samsung.android.galaxycontinuity" caller="com.sec.spp.push" matchType="equals" action="com.sec.spp.RegistrationChangedAction" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.tencent.qqmusic.ACTION_SERVICE_PREVIOUS_TASKBAR.QQMusicPhone" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.tencent.qqmusic.ACTION_SERVICE_NEXT_TASKBAR.QQMusicPhone" />
+    <allow-essential-intent restrictionType="3" isAllowed="allow" matchType="equals" action="com.tencent.qqmusic.ACTION_SERVICE_TOGGLEPAUSE_TASKBAR.QQMusicPhone" />
+
+    <block-top-activity restrictionType="5" isAllowed="block" matchType="startsWith" action="com.and.games505.Terraria" />
+    <block-top-activity restrictionType="5" isAllowed="block" callee="com.tencent.mtt" />
+    <block-top-activity restrictionType="5" isAllowed="block" callee="com.maiya.weather" />
+
+    <allow-foreground-app restrictionType="7" isAllowed="allow" callee="com.sina.weibo" />
+    <allow-foreground-app restrictionType="7" isAllowed="allow" callee="com.tencent.mm" />
+    <allow-foreground-app restrictionType="7" isAllowed="allow" callee="com.tencent.mobileqq" />
+
+    <block-faketop-app restrictionType="8" isAllowed="block" callee="com.igexin.sdk.GActivity" />
+    <block-faketop-app restrictionType="8" isAllowed="block" callee="com.sina.news.module.push.guard.activity.SinaGTDynCActivity" />
+    <block-faketop-app restrictionType="8" isAllowed="block" callee="com.sina.news.module.push.guard.activity.SinaGTDynDActivity" />
+
+    <allow-async-binder restrictionType="9" isAllowed="allow" matchType="contains" action="Accessibility" />
+    <allow-async-binder restrictionType="9" isAllowed="allow" matchType="contains" action="ISessionCallback" />
+    <allow-async-binder restrictionType="9" isAllowed="allow" matchType="contains" action="android.media.IAudioPolicyServiceClient" />
+
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.codoon.gps" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.traffic.panda" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="me.ele.crowdsource" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.ludashi.benchmark" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.dada.mobile.android" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.filemagic" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.tencent.tmgp.yys.zqb" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.baidu.carlife" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.supercleaner.lite" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.ijinshan.browser_fast" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.maiya.weather" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.kaidishi.lock" />
+    <force-block-chinese-app restrictionType="10" isAllowed="block" callee="com.oray.sunlogin.service" />
+
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.ss.android.ugc.trill" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="cheehoon.ha.particulateforecaster" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.smg.spbs" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.lottemembers.android" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.cleanmaster.mguard" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.fitnesskeeper.runkeeper.pro" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.welstory.welhc" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="net.rgruet.android.g3watchdog" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="kr.co.d2.dominos" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.kt.gigagenie.mobile" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.northghost.touchvpn" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.gion.android.GnMemoG" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.nhn.android.band" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.ktcs.whowho" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.skt.tmap.ku" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.linkedin.android" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="net.daum.android.daum" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.campmobile.snow" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.estsoft.alyac" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.nhn.android.nmap" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="de.axelspringer.yana.zeropage" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.imo.android.imoim" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.life360.android.safetymapd" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.bmwgroup.connected.bmw" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="fast.phone.clean" />
+    <block-alarm-app restrictionType="11" isAllowed="block" callee="com.nhn.android.navercafe" />
+
+    <!-- pending-broadcast restrictionType="12" isAllowed="idle" matchType="equals" action="android.intent.action.SCREEN_ON" -->
+    <pending-broadcast restrictionType="12" isAllowed="idle" matchType="equals" action="android.intent.action.SCREEN_OFF" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.ANY_DATA_STATE" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.TIME_TICK" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.net.wifi.SCAN_RESULTS" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.BATTERY_CHANGED" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="net.rgruet.android.g3watchdog.ACTION_CHECK_SERVICE_ALIVE" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="com.android.server.action.NETWORK_STATS_UPDATED" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.media.VOLUME_CHANGED_ACTION" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.net.conn.CONNECTIVITY_CHANGE" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.USER_PRESENT" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.CLOSE_SYSTEM_DIALOGS" />
+    <pending-broadcast restrictionType="12" isAllowed="block" matchType="equals" action="android.intent.action.SERVICE_STATE" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="android.intent.action.MEDIA_SCANNER_FINISHED" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="android.intent.action.MEDIA_SCANNER_STARTED" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="org.agoo.android.intent.action.ELECTION_RESULT_V4" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.tencent.android.tpush.service.channel.heartbeatIntent" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.tencent.android.tpush.action.SDK" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.baidu.android.pushservice.action.METHOD" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.igexin.sdk.action.execute" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.igexin.sdk.action.pushmanager" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.baidu.sapi2.ACTION_HOUR_FREQUENCY" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.baidu.android.pushservice.action.BIND_SYNC" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="android.location.GPS_FIX_CHANGE" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.android.eguan.drivermonitor" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.action.utdid" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="wx_global_action" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="jingdong.jdpush.MSG_CENTER" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.alibaba.analytics.config.change" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="cn.jpush.android.intent.CONNECTION" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.xiaomi.push.service_started" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.taobao.aranger.DISCONNECT" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.taobao.aranger.CONNECT" />
+    <pending-broadcast restrictionType="12" isAllowed="blockchn" matchType="equals" action="com.taobao.adaemon.CORE_PROCESS_CREATED" />
+
+    <pending-gps-app restrictionType="13" isAllowed="block" callee="com.codoon.gps" />
+    <pending-gps-app restrictionType="13" isAllowed="block" callee="com.traffic.panda" />
+    <pending-gps-app restrictionType="13" isAllowed="block" callee="me.ele.crowdsource" />
+    <pending-gps-app restrictionType="13" isAllowed="block" callee="com.accurate.live.weather.forecast" />
+    <pending-gps-app restrictionType="13" isAllowed="block" callee="com.accurate.live.weather.forecast.pro" />
+
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.tencent.android.qqdownloader" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.qihoo.cleandroid_cn" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.qihoo.appstore" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.xunmeng.pinduoduo" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.ludashi.benchmark" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.filemagic" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.icoolme.android.weather" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.maiya.weather" />
+    <block-instrument-app restrictionType="14" isAllowed="block" callee="com.calendar2345" />
+
+    <block-foregroundservice-app restrictionType="15" isAllowed="block" caller="com.tencent.qqlive" />
+
+    <allow-asyncbinder-fgs-app restrictionType="17" isAllowed="allow" matchType="contains" action="com.android.internal.telephony.IPhoneState" />
+    <allow-asyncbinder-fgs-app restrictionType="17" isAllowed="allow" matchType="equals" action="android.media.IAudioFocusDispatcher" />
+
+    <allow-alarm-app restrictionType="19" isAllowed="allow" callee="com.kt.ktauth" />
+    <allow-alarm-app restrictionType="19" isAllowed="allow" callee="com.sktelecom.tauth" />
+    <allow-alarm-app restrictionType="19" isAllowed="allow" callee="com.lguplus.smartotp" />
+    <allow-alarm-app restrictionType="19" isAllowed="allow" callee="com.google.android.deskclock" />
+    <allow-alarm-app restrictionType="19" isAllowed="allow" callee="com.nttdocomo.android.messagedl" />
+    <allow-alarm-app restrictionType="19" isAllowed="allow" callee="com.samsung.android.app.reminder" />
+
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.google.android.play.games" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.google.android.apps.chromecast.app" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.samsung.android.app.watchmanager" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.rocketshipapps.adblockfast" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.betafish.adblocksbrowser" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="org.adblockplus.adblockplussbrowser" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.seven.adclear.fsb" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.adguard.android.contentblocker" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="co.crystalapp.crystal" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.disconnect.samsungcontentblocker" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="kr.co.lylstudio.unicorn" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.spear_adblocker" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="org.adblockplus.adblockplussbrowser.cn" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.samsung.android.app.routines" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.sec.android.app.clockpackage" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.sec.android.app.myfiles" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.samsung.android.app.tips" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.google.android.webview" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.samsung.android.app.notes" />
+    <block-deepsleep-app restrictionType="21" isAllowed="block" callee="com.samsung.android.game.gamehome" />
+
+    <block-alarm-wakeup-app restrictionType="23" isAllowed="block" callee="com.facebook.orca" />
+    <block-alarm-wakeup-app restrictionType="23" isAllowed="block" callee="com.facebook.katana" />
+    <block-alarm-wakeup-app restrictionType="23" isAllowed="block" callee="com.facebook.services" />
+
+    <allow-alarm-wakeup-app restrictionType="24" isAllowed="allow" matchType="startsWith" action="KeepaliveManager" />
+
+    <allow-setwindow-alarm-app  restrictionType="25" isAllowed="allow" callee="com.google.android.gms" matchType="equals" action="com.google.android.gms.gcm.HEARTBEAT_ALARM" />
+
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.youku.phone" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.tencent.qqlive" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.qiyi.video" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.ss.android.ugc.aweme" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.zhunei.ed365" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.tencent.mm" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.tencent.mobileqq" />
+    <allow-bgaudio-app restrictionType="26" isAllowed="allow" callee="com.zhumaonline.exercise" />
+
+    <block-associated-activity restrictionType="27" isAllowed="block" callee="com.igexin.sdk.PushActivityTask" />
+    <block-associated-activity restrictionType="27" isAllowed="block" callee="com.sdk.plus.EnhActivityTask" />
+    <block-associated-activity restrictionType="27" isAllowed="block" callee="com.adplus.sdk.QtsActivityTask" />
+    <block-associated-activity restrictionType="27" isAllowed="block" callee="cn.soulapp.android.JGSoulActivity" />
+    <block-associated-activity restrictionType="27" isAllowed="block" callee="push.custom" />
+    <block-associated-activity restrictionType="27" isAllowed="block" callee="com.ximalaya.ting.android.GeTuiGuardIgnoreDauActivity" />
+
+    <ssrm-allow-list package="com.sec.android.app.clockpackage" />
+    <ssrm-allow-list package="com.ih.app.btsdlsvc" />
+    <ssrm-allow-list package="com.sds.mysinglesquare" />
+    <ssrm-allow-list package="com.sds.sso.agent" />
+    <ssrm-allow-list package="com.samsung.android.oneconnect" />
+    <ssrm-allow-list package="com.samsung.android.app.networkstoragemanager" />
+    <ssrm-allow-list package="com.sec.android.app.myfiles" />
+    <ssrm-allow-list package="com.sec.android.easyMover" />
+    <ssrm-allow-list package="com.android.vending" />
+    <ssrm-allow-list package="com.google.android.googlequicksearchbox" />
+    <ssrm-allow-list package="com.samsung.systemui.notilus" />
+    <ssrm-allow-list package="com.samsung.android.app.clockface" />
+    <ssrm-allow-list package="com.samsung.android.tvplus" />
+    <ssrm-allow-list package="com.samsung.android.soundassistant" />
+    <ssrm-allow-list package="com.samsung.android.app.spage" />
+    <ssrm-allow-list package="com.samsung.android.dynamiclock" />
+    <ssrm-allow-list package="com.android.chrome" />
+    <ssrm-allow-list package="com.samsung.android.service.tagservice" />
+    <ssrm-allow-list package="com.google.android.apps.googlevoice" />
+    <ssrm-allow-list package="com.dropbox.android" />
+    <ssrm-allow-list package="com.sds.mms.ui" />
+    <ssrm-allow-list package="com.samsung.android.sidegesturepad" />
+    <ssrm-allow-list package="com.android.samsung.icebox" />
+    <ssrm-allow-list package="com.teslamotors.tesla" />
+    <ssrm-allow-list package="com.sec.android.app.sbrowser" />
+    <ssrm-allow-list package="com.nhn.android.calendar" />
+    <ssrm-allow-list package="com.samsung.android.visionintelligence" />
+    <ssrm-allow-list package="com.android.angryGps" />
+    <ssrm-allow-list package="com.samsung.android.spay" />
+    <ssrm-allow-list package="com.hdwallpaper.wallpaper" />
+    <ssrm-allow-list package="com.samsung.android.calendar" />
+    <ssrm-allow-list package="com.samsung.android.multiadvscanfilter" />
+    <ssrm-allow-list package="com.sec.android.app.camera" />
+    <ssrm-allow-list package="com.google.android.wearable.app" />
+    <ssrm-allow-list package="com.samsung.android.wonderland.wallpaper" />
+    <ssrm-allow-list package="com.google.android.apps.tycho" />
+    <ssrm-allow-list package="androidx.camera.extensions.test" />
+    <ssrm-allow-list package="androidx.camera.integration.extensions" />
+    <ssrm-allow-list package="androidx.camera.integration.extensions.test" />
+    <ssrm-allow-list package="com.example.cameraxsamsung" />
+    <ssrm-allow-list package="com.example.cameraxsamsung.test" />
+    <ssrm-allow-list package="android.server.wm.backgroundactivity.appa" />
+    <ssrm-allow-list package="android.server.wm.backgroundactivity.appb" />
+    <ssrm-allow-list package="android.backup.kvapp" />
+    <ssrm-allow-list package="controls.mock" /> <!-- P231003-02322 -->
+
+    <olaf-allow-list package="com.sec.android.app.launcher" />
+    <olaf-allow-list package="com.samsung.android.visionintelligence" />
+    <olaf-allow-list package="com.samsung.android.app.cocktailbarservice" />
+    <olaf-allow-list package="com.google.android.googlequicksearchbox" />
+    <olaf-allow-list package="com.sec.android.easyonehand" />
+    <olaf-allow-list package="com.samsung.android.sidegesturepad" />
+    <olaf-allow-list package="com.samsung.android.authfw" />
+    <olaf-allow-list package="com.samsung.android.samsungpass" />
+    <olaf-allow-list package="com.sec.android.app.clockpackage" />
+    <olaf-allow-list package="com.google.android.providers.media.module" />
+    <olaf-allow-list package="com.sds.sso.agent" />
+    <olaf-allow-list package="com.samsung.android.service.aircommand" />
+    <olaf-allow-list package="com.samsung.android.app.smartcapture" />
+    <olaf-allow-list package="com.samsung.android.carlink" />
+    <olaf-allow-list package="com.android.chrome" />
+    <olaf-allow-list package="com.samsung.android.app.spage" />
+
+    <freeze-exclude-list package="com.flyersoft.moonreaderp" />
+    <freeze-exclude-list package="com.urbandroid.dontkillmyapp" />
+    <freeze-exclude-list package="com.alu.proserv.ipdsp" />
+
+    <filter-list filter="screenOn" />
+    <filter-list filter="screenOn-widget" />
+    <filter-list filter="AppLockerKill" />
+    <filter-list filter="CancelPolicy" />
+    <filter-list filter="RegException" />
+    <filter-list filter="activity" />
+    <filter-list filter="backup" />
+    <filter-list filter="AutoRunKill" />
+    <filter-list filter="UidActive" />
+    <filter-list filter="charging" />
+    <filter-list filter="FGActivity" />
+    <filter-list filter="DeviceIdleOFF" />
+    <filter-list filter="SmartSwitch" />
+
+    <olaf-ufz-list filter="FGActivity" />
+    <olaf-ufz-list filter="Binder(0)" />
+    <olaf-ufz-list filter="Signal" />
+    <olaf-ufz-list filter="activity" />
+    <olaf-ufz-list filter="broadcast" />
+    <olaf-ufz-list filter="bindService" />
+    <olaf-ufz-list filter="startService" />
+    <olaf-ufz-list filter="provider" />
+    <olaf-ufz-list filter="MediaKeyEvent" />
+    <olaf-ufz-list filter="DisableFC" />
+    <olaf-ufz-list filter="FBException" />
+    <olaf-ufz-list filter="charging" />
+    <olaf-ufz-list filter="Watchdog" />
+    <olaf-ufz-list filter="Watchdog_HALF" />
+    <olaf-ufz-list filter="CancelPolicy" />
+    <olaf-ufz-list filter="PkgRemoved" />
+    <olaf-ufz-list filter="BugReport" />
+    <olaf-ufz-list filter="SmartSwitch" />
+    <olaf-ufz-list filter="ServiceANR" />
+
+    <calm-mode-filter-list filter="CancelPolicy" />
+    <calm-mode-filter-list filter="activity" />
+    <calm-mode-filter-list filter="Binder(0)" />
+    <calm-mode-filter-list filter="Binder(1)-" />
+    <calm-mode-filter-list filter="Cfb" />
+    <calm-mode-filter-list filter="FGActivity" />
+
+    <calm-mode-default-list package="com.samsung.android.game.gos" />
+    <calm-mode-default-list package="com.samsung.android.game.gametools" />
+    <calm-mode-default-list package="com.samsung.android.app.smartcapture" />
+    <calm-mode-default-list package="com.tencent.mm" />
+    <calm-mode-default-list package="com.tencent.mobileqq" />
+    <calm-mode-default-list package="com.sec.android.app.shealth" />
+    <calm-mode-default-list package="com.samsung.android.smartmirroring" />
+    
+    <location-app-list package="com.baidu.BaiduMap" />
+    <location-app-list package="com.autonavi.minimap" />
+    <location-app-list package="com.autonavi.xmgd.navigator" />
+    <location-app-list package="com.tencent.map" />
+    <location-app-list package="com.sogou.map.android.maps" />
+    <location-app-list package="com.baidu.navi" />
+    <location-app-list package="com.mapbar.android.mapbarmap" />
+    <location-app-list package="com.uu.uunavi" />
+    <location-app-list package="com.ovital.ovitalMap" />
+</mars-list>

@@ -1,0 +1,15 @@
+# Zero Trust Daemon
+service ztd /system/bin/ztd
+#   socket zt stream 0660 root system
+    user root
+    group system
+
+on property:persist.sys.knox.ztd=true
+    start ztd
+
+on property:persist.sys.knox.ztd=false
+    stop ztd
+
+on post-fs-data
+    setprop persist.sys.knox.ztd false
+

@@ -1,0 +1,36 @@
+
+# Note : this file won't be included in GSI
+
+on early-init
+    # Enable MGLRU
+    setprop persist.device_config.mglru_native.lru_gen_config all
+
+on boot
+    write /proc/sys/vm/page-cluster 0
+    write /proc/sys/vm/watermark_boost_factor 0
+    write /proc/sys/vm/compaction_proactiveness 0
+
+    chown root system /sys/block/zram0/writeback_limit
+    chmod 0664 /sys/block/zram0/writeback_limit
+    chown root system /sys/block/zram0/bd_stat
+    chmod 0664 /sys/block/zram0/bd_stat
+
+    # am_app_launch
+    chmod 0664 /sys/kernel/mm/vmscan/am_app_launch
+    chown system system /sys/kernel/mm/vmscan/am_app_launch
+
+    # rbin mem_boost_mode
+    chmod 0664 /sys/kernel/rbin/mem_boost_mode
+    chown cameraserver system /sys/kernel/rbin/mem_boost_mode
+
+on property:sys.sysctl.swappiness=*
+    write /proc/sys/vm/swappiness ${sys.sysctl.swappiness}
+
+# Pageboostd
+on property:sys.boot_completed=1
+    mkdir /data/misc/pageboost 0771 system system
+
+# GPUMemoryReclaim (GMR)
+on boot && property:ro.sys.kernelmemory.gmr.enabled=true && property:ro.sys.kernelmemory.gmr.vendor_plugin=kgsl
+    chown root system /sys/class/kgsl/kgsl/max_reclaim_limit
+    chmod 0664 /sys/class/kgsl/kgsl/max_reclaim_limit

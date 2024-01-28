@@ -1,0 +1,8 @@
+<packages>
+    <!-- <package name="com.example.app"/> -->
+    <package name="com.sohu.inputmethod.sogou.samsung"/>
+   	<package name="com.samsung.android.calendar"/>
+   	<package name="com.sec.android.app.clockpackage"/>
+	<package name="com.samsung.android.app.notes"/>
+   	<package name="com.sec.android.app.fm"/>
+</packages>

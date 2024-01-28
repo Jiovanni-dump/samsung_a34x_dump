@@ -1,0 +1,3 @@
+on post-fs-data
+    mkdir /efs/sec_efs/skpm 0775 system system
+

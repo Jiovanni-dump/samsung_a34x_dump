@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <!-- Skip to scan SearchSelector.apk for all devices -->
+    <!-- <exception name="SearchSelector.apk" > -->
+
+    <!-- Skip to scan SearchSelector.apk except for ins -->
+    <!-- <exception name="SearchSelector.apk" product="ins"> -->
+
+    <!-- Skip to scan SearchSelector.apk except for ins or eea -->
+    <exception name="SearchSelector.apk" product="ins|eea" />
+
+</exceptions>

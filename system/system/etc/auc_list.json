@@ -1,0 +1,64 @@
+{
+    "osCode": "14",
+    "addList": [
+        {
+            "appId": "com.samsung.android.arzone"
+        },
+        {
+            "appId": "com.sec.android.app.popupcalculator"
+        },
+        {
+            "appId": "com.samsung.android.calendar"
+        },
+        {
+            "appId": "com.sec.android.app.clockpackage"
+        },
+        {
+            "appId": "com.samsung.app.newtrim"
+        },
+        {
+            "appId": "com.sec.android.app.fm"
+        },
+        {
+            "appId": "com.samsung.android.game.gamehome"
+        },
+        {
+            "appId": "com.samsung.android.app.reminder"
+        },
+        {
+            "appId": "com.osp.app.signin"
+        },
+        {
+            "appId": "com.sec.android.app.sbrowser"
+        },
+        {
+            "appId": "com.sec.android.app.music"
+        },
+        {
+            "appId": "com.samsung.android.app.spage"
+        },
+        {
+            "appId": "com.samsung.android.app.notes"
+        },
+        {
+            "appId": "com.samsung.android.bixby.ondevice.kokr"
+        },
+        {
+            "appId": "com.samsung.android.tvplus"
+        },
+        {
+            "appId": "com.samsung.android.oneconnect"
+        },
+        {
+            "appId": "com.samsung.android.video"
+        },
+        {
+            "appId": "com.sec.android.app.voicenote"
+        }
+    ],
+    "deleteList": [
+        {
+            "appId": "com.sec.android.app.kidshome"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+import /prism/etc/init/init.rc
+
+on property:ril.product_code=*
+    property_update

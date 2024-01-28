@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AER Feature Flag -->
+<device>
+        <!-- o1s --> 
+	<product name="o1stur"/>
+	<product name="o1sxtur"/>
+	<product name="o1sxser"/>
+	<product name="o1sxx"/>
+	<product name="o1sxxx"/>
+	<product name="o1sxeea"/>
+	<product name="o1sksx"/>
+	<product name="o1sser"/>
+        <!-- o1q --> 
+	<product name="o1qcsx"/>
+	<product name="o1quew"/>
+	<product name="o1qzhx"/>
+	<product name="o1qsqw"/>
+	<product name="SC-51B"/>
+	<product name="SCG09_jp_kdi"/>
+        <!-- t2s --> 
+	<product name="t2sksx"/>
+	<product name="t2sxxx"/>
+	<product name="t2sxser"/>
+	<product name="t2sxeea"/>
+	<product name="t2sxtur"/>
+        <!-- t2q --> 
+	<product name="t2qzhx"/>
+	<product name="t2qsqw"/>
+	<product name="t2qcsx"/>
+	<product name="t2quew"/>
+	<product name="SCG10_jp_kdi"/>
+        <!-- p3s --> 
+	<product name="p3sksx"/>
+	<product name="p3sxeea"/>
+	<product name="p3sxtur"/>
+	<product name="p3sxser"/>
+	<product name="p3sxxx"/>
+        <!-- p3q --> 
+	<product name="p3qcsx"/>
+	<product name="p3qsqw"/>
+	<product name="p3quew"/>
+	<product name="p3qzhx"/>
+	<product name="SC-52B"/>
+	    <!-- r9s --> 
+	<product name="r9sxtur"/>
+	<product name="r9sxxx"/>
+        <!-- r9q --> 
+	<product name="r9qxeea"/>
+	<product name="r9qxtur"/>
+	<product name="r9qxser"/>
+	<product name="r9qzh"/>
+	<product name="r9quew"/>
+	<product name="r9qxxx"/>
+	<product name="r9qcsx"/>
+	<product name="r9qsqw"/>
+	<product name="r9q2xxx"/>
+	<product name="r9q2xeea"/>
+	<product name="r9q2xser"/>
+	<product name="r9q2sqw"/>
+	<product name="r9q2csx"/>
+	<product name="r9q2uew"/>
+<!-- GALAXY-TAB-S7-XL-LITE  gts7fewifi--> 
+	<product name="gts7fewifixx"/>
+	<product name="gts7fewifitur"/>
+	<product name="gts7fewifieea"/>
+	<product name="gts7fewifiser"/>
+        <!-- GALAXY-TAB-S7-XL-LITE  gts7xllite --> 
+	<product name="gts7xllitexx"/>
+	<product name="gts7xlliteser"/>
+	<product name="gts7xllitexeea"/>
+	<product name="gts7xllitekx"/>
+	<product name="gts7xllitetur"/>
+	<product name="gts7xllitekxx"/>
+	<product name="gts7xllitesqwnc"/>
+	<product name="gts7xllitexxx"/>
+	<product name="gts7xllitesqw"/>
+        <!-- GALAXY-TAB-S7-XL-LITE  gts7xllitewifi --> 
+	<product name="gts7xllitewifieea"/>
+	<product name="gts7xllitewifixx"/>
+	<product name="gts7xllitewifitur"/>
+	<product name="gts7xllitewifiser"/>
+	    <!-- q2q --> 
+	<product name="q2qsqw"/>
+	<product name="q2qxxx"/>
+	<product name="q2qcsx"/>
+	<product name="q2qzhx"/>
+	<product name="q2qksx"/>
+	<product name="q2qxtur"/>
+	<product name="q2qxser"/>
+	<product name="q2qxeea"/>
+	<product name="q2quew"/>
+	<product name="SC-55B"/>
+	<product name="SCG11_jp_kdi"/>
+        <!-- b2q --> 
+	<product name="b2quew"/>
+	<product name="b2qxxx"/>
+	<product name="b2qcsx"/>
+	<product name="b2qsqw"/>
+	<product name="b2qzhx"/>
+	<product name="b2qxser"/>
+	<product name="b2qxtur"/>
+	<product name="b2qxeea"/>
+	<product name="b2qksx"/>
+	<product name="SC-54B"/>
+	<product name="SCG12_jp_kdi"/>
+        <!-- q4 --> 
+	<product name="q4qsqw"/>
+	<product name="q4qzhx"/>
+	<product name="q4qksx"/>
+	<product name="q4quew"/>
+	<product name="q4qcsx"/>
+	<product name="q4qxser"/>
+	<product name="q4qxtur"/>
+	<product name="q4qxxx"/>
+	<product name="q4qxeea"/>
+	<product name="SC-55C"/>
+	<product name="SCG16_jp_kdi"/>
+		<!-- b4 --> 
+	<product name="b4qsqw"/>
+	<product name="b4qzhx"/>
+	<product name="b4qxeea"/>
+	<product name="b4qksx"/>
+	<product name="b4quew"/>
+	<product name="b4qrktw"/>
+	<product name="b4qcsx"/>
+	<product name="b4qxser"/>
+	<product name="b4qxtur"/>
+	<product name="b4qxxx"/>
+	<product name="SC-54C"/>
+	<product name="SCG17_jp_kdi"/>
+	    <!-- a52q --> 
+	<product name="a52qnstur"/>
+	<product name="a52qnseea"/>
+	<product name="a52qnsxx"/>
+	<product name="a52qnsser"/>
+	<product name="a52qub"/>
+        <!-- a52xq --> 
+	<product name="a52xque"/>
+	<product name="a52xqcs"/>
+	<product name="a52xqnaeea"/>
+	<product name="a52xqsq"/>
+	<product name="a52xqzh"/>
+	<product name="a52xqks"/>
+	<product name="a52xqnaxx"/>
+	<product name="SC-53B"/>
+        <!-- a52sxq --> 
+	<product name="a52sxqeea"/>
+	<product name="a52sxqtur"/>
+	<product name="a52sxqser"/>
+	<product name="a52sxqzt"/>
+	<product name="a52sxqxx"/>
+	<product name="a52sxqks"/>
+	    <!-- b0s --> 
+	<product name="b0sxser"/>
+	<product name="b0sxtur"/>
+	<product name="b0sxxx"/>
+	<product name="b0sxeea"/>
+	<product name="b0sksx"/>
+        <!-- b0q --> 
+	<product name="b0qksx"/>
+	<product name="b0quew"/>
+	<product name="b0qcsx"/>
+	<product name="b0qxxx"/>
+	<product name="b0qsqw"/>
+	<product name="b0qzhx"/>
+	<product name="b0qxtur"/>
+	<product name="SC-52C"/>
+	<product name="SCG14_jp_kdi"/>
+        <!-- r0s --> 
+	<product name="r0sxxx"/>
+	<product name="r0sxeea"/>
+	<product name="r0sxtur"/>
+	<product name="r0sxser"/>
+	<product name="r0sksx"/>
+        <!-- r0q --> 
+	<product name="r0qksx"/>
+	<product name="r0qxtur"/>
+	<product name="r0qcsx"/>
+	<product name="r0qzhx"/>
+	<product name="r0quew"/>
+	<product name="r0qsqw"/>
+	<product name="r0qxxx"/>
+	<product name="SC-51C"/>
+	<product name="SCG13_jp_kdi"/>
+        <!-- g0s --> 
+	<product name="g0sxxx"/>
+	<product name="g0sxtur"/>
+	<product name="g0sxeea"/>
+	<product name="g0sxser"/>
+	<product name="g0sksx"/>
+        <!-- g0q --> 
+	<product name="g0qksx"/>
+	<product name="g0quew"/>
+	<product name="g0qxtur"/>
+	<product name="g0qcsx"/>
+	<product name="g0qxxx"/>
+	<product name="g0qsqw"/>
+	<product name="g0qzhx"/>
+        <!-- gts8 Galaxy-Tab-S8 -->
+    <product name="gts8kxx"/>
+	<product name="gts8keea"/>
+	<product name="gts8xser"/>
+	<product name="gts8xeea"/>
+    <product name="gts8xxx"/>
+    <product name="gts8sq"/>
+        <!-- gts8wifi Galaxy-Tab-S8 --> 
+	<product name="gts8wifiser"/>
+	<product name="gts8wifitur"/>
+	<product name="gts8wifixx"/>
+	<product name="gts8wifieea"/>
+	    <!-- gts8p GALAXY-TAB-S8-PLUS --> 
+	<product name="gts8pkxx"/>
+	<product name="gts8psqw"/>
+	<product name="gts8peea"/>
+	<product name="gts8pxser"/>
+    <product name="gts8pxeea"/>
+    <product name="gts8pxx"/>
+    <product name="gts8pxxx"/>
+    <product name="gts8psqwnc"/>
+        <!-- gts8pwifi GALAXY-TAB-S8-PLUS --> 
+	<product name="gts8pwifitur"/>
+	<product name="gts8pwifiser"/>
+	<product name="gts8pwifixx"/>
+	<product name="gts8pwifieea"/>
+	<product name="gts8pwifijpn"/>
+        <!-- gts8u Galaxy-Tab-S8-Ultra --> 
+	<product name="gts8ukxx"/>
+	<product name="gts8uxser"/>
+	<product name="gts8uxeea"/>
+    <product name="gts8uxxx"/>
+        <!-- gts8uwifi Galaxy-Tab-S8-Ultra --> 
+	<product name="gts8uwifiser"/>
+    <product name="gts8uwifitur"/>
+    <product name="gts8uwifieea"/>
+	<product name="gts8uwifixx"/>
+	<product name="gts8uwifijpn"/>
+		<!-- a33x  --> 
+	<product name="a33xnndxx"/>
+	<product name="a33xnsdtur"/>
+	<product name="a33xnsdxx"/>
+	<product name="a33xnndx"/>
+	<product name="a33xnsdx"/>
+	<product name="a33xub"/>
+	<product name="a33xks"/>
+	<product name="a33xzh"/>
+	<product name="a33xnsser"/>
+	<product name="a33xnsxx"/>
+	<product name="a33xnseea"/>
+		<!-- a53x  --> 
+	<product name="a53xtfn"/>
+	<product name="a53xzh"/>
+	<product name="a53xcsx"/>
+	<product name="a53xnaxx"/>
+	<product name="a53xksx"/>
+	<product name="a53xnsser"/>
+	<product name="a53xnstur"/>
+	<product name="a53xnsxx"/>
+	<product name="a53xsqx"/>
+	<product name="a53xsqw"/>
+	<product name="a53xue"/>
+	<product name="SC-53C"/>
+	<product name="SCG15_jp_kdi"/>
+	<product name="a53xnaeea"/>
+		<!-- xcoverpro2 --> 
+	<product name="xcoverpro2cs"/>
+	<product name="xcoverpro2ue"/>
+	<product name="xcoverpro2tur"/>
+	<product name="xcoverpro2eea"/>
+	<product name="xcoverpro2xx"/>
+	<product name="xcoverpro2sq"/>
+<!-- a23 --> 
+	<product name="a23xqzh"/>
+	<product name="a23xqsqw"/>
+	<product name="a23xqsq"/>
+	<product name="a23xqnsxx"/>
+	<product name="a23xqnseea"/>
+	<product name="a23xqnsdxx"/>
+	<product name="a23xqub"/>
+	<product name="a23xqnndxx"/>
+	<product name="a23xque"/>
+	<product name="a23xqtfn"/>
+	<product name="a23xqnsser"/>
+	<product name="a23xqnsdtur"/>
+	<product name="a23exrkt"/>
+	<product name="SC-56C"/>
+	<product name="SCG18_jcm_jp"/>
+	<product name="SCG18_jp_kdi"/>
+<!-- gtact4pro  --> 
+	<product name="gtact4proue"/>
+	<product name="gtact4proxser"/>
+	<product name="gtact4proxeea"/>
+	<product name="gtact4prokxx"/>
+	<product name="gtact4protur"/>
+	<product name="gtact4proxxx"/>
+	<product name="gtact4procs"/>
+<!-- gtact4prowifi --> 
+	<product name="gtact4prowifieea"/>
+	<product name="gtact4prowifixx"/>
+	<product name="gtact4prowifiser"/>
+<!-- dm1q --> 
+	<product name="dm1qzhx"/>
+	<product name="dm1qxxx"/>
+	<product name="dm1qxtur"/>
+	<product name="dm1qxser"/>
+	<product name="dm1qxeea"/>
+	<product name="dm1quew"/>
+	<product name="dm1qsqw"/>
+	<product name="dm1qksx"/>
+	<product name="dm1qcsx"/>
+	<product name="dm1qrktw"/>
+	<product name="SC-51D"/>
+	<product name="SCG19_jp_kdi"/>
+		<!-- dm2q --> 
+	<product name="dm2qzhx"/>
+	<product name="dm2qxxx"/>
+	<product name="dm2qxtur"/>
+	<product name="dm2qxser"/>
+	<product name="dm2qxeea"/>
+	<product name="dm2quew"/>
+	<product name="dm2qsqw"/>
+	<product name="dm2qksx"/>
+	<product name="dm2qcsx"/>
+    <!-- dm3 --> 
+	<product name="dm3qzhx"/>
+	<product name="dm3qxxx"/>
+	<product name="dm3qxtur"/>
+	<product name="dm3qxser"/>
+	<product name="dm3qxeea"/>
+	<product name="dm3quew"/>
+	<product name="dm3qsqw"/>
+	<product name="dm3qksx"/>
+	<product name="dm3qcsx"/>
+	<product name="SC-52D"/>
+	<product name="SCG20_jp_kdi"/>
+    <!-- a54x  --> 
+	<product name="a54xzh"/>
+	<product name="a54xue"/>
+	<product name="a54xsqx"/>
+	<product name="a54xsqw"/>
+	<product name="a54xnaxx"/>
+	<product name="a54xnaeea"/>
+	<product name="a54xcs"/>
+	<product name="a54xnstur"/>
+	<product name="a54xnsser"/>
+	<product name="a54xnsxx"/>
+	<product name="a54xtfn"/>
+	<product name="SCG21_jp_kdi"/>
+	<product name="SC-53D"/>
+    <!-- a34x  --> 
+	<product name="a34xzh"/>
+	<product name="a34xxx"/>
+	<product name="a34xub"/>
+	<product name="a34xks"/>
+	<product name="a34xeea"/>
+	<product name="a34xdxx"/>
+	<product name="a34xdtur"/>
+	<product name="a34xdser"/>
+	    <!-- a14x  --> 
+	<product name="a14xxx"/>
+	<product name="a14xub"/>
+	<product name="a14xmxx"/>
+	<product name="a14xmeea"/>
+	<product name="a14xmzh"/>
+	<product name="a14xmsq"/>
+	<product name="a14xmue"/>
+	<product name="a14xmcs"/>
+	<product name="a14xmtfn"/>
+		<!-- Tab S9 Ultra  --> 
+	<product name="gts9ukeea"/>
+	<product name="gts9ukxx"/>
+	<product name="gts9uxeea"/>
+	<product name="gts9uxser"/>
+	<product name="gts9uxxx"/>
+        <!-- Tab S9+  --> 
+	<product name="gts9pkeea"/>
+	<product name="gts9pkxx"/>
+	<product name="gts9psqw"/>
+	<product name="gts9psqwnc"/>
+	<product name="gts9pxeea"/>
+	<product name="gts9pxser"/>
+	<product name="gts9pxxx"/>
+	    <!-- Tab S9  --> 
+	<product name="gts9kxx"/>
+	<product name="gts9xeea"/>
+	<product name="gts9xser"/>
+	<product name="gts9xxx"/>
+		<!-- Tab S9 Ultra WIFI --> 
+	<product name="gts9uwifieea"/>
+	<product name="gts9uwifiser"/>
+	<product name="gts9uwifixx"/>
+	<product name="gts9uwifitur"/>
+        <!-- Tab S9+ WIFI --> 
+	<product name="gts9pwifieea"/>
+	<product name="gts9pwifiser"/>
+	<product name="gts9pwifixx"/>
+	<product name="gts9pwifitur"/>
+	    <!-- Tab S9 WIFI --> 
+	<product name="gts9wifieea"/>
+	<product name="gts9wifiser"/>
+	<product name="gts9wifixx"/>
+	<product name="gts9wifitur"/>
+		<!-- Galaxy Tab S9 FE 5G --> 
+	<product name="gts9fesqwnc"/>
+	<product name="gts9feser"/>
+	<product name="gts9fekx"/>
+	<product name="gts9fexx"/>
+	<product name="gts9feeea"/>
+	<product name="gts9feins"/>
+	<product name="gts9fesqw"/>
+	<product name="gts9fecs"/>
+		<!-- Tab S9 FE --> 
+	<product name="gts9fewifitur"/>
+	<product name="gts9fewifiser"/>
+	<product name="gts9fewifieea"/>
+	<product name="gts9fewifixx"/>
+	<product name="gts9fewifiins"/>
+		<!-- Tab S9 FE+ 5G --> 
+	<product name="gts9fepser"/>
+	<product name="gts9fepkx"/>
+	<product name="gts9fepxx"/>
+	<product name="gts9fepeea"/>
+	<product name="gts9fepins"/>
+	<product name="SCT22_jp_kdi"/>
+		<!-- Tab S9 FE+ --> 
+	<product name="gts9fepwifitur"/>
+	<product name="gts9fepwifiser"/>
+	<product name="gts9fepwifieea"/>
+	<product name="gts9fepwifixx"/>
+	<product name="gts9fepwifiins"/>
+		<!-- S23 FE --> 
+	<product name="r11sxins"/>
+	<product name="r11sxtur"/>
+	<product name="r11sxser"/>
+	<product name="r11sxeea"/>
+	<product name="r11qzhx"/>
+	<product name="r11qcs"/>
+	<product name="r11qsqw"/>
+	<product name="r11sxxx"/>
+	<product name="r11quew"/>
+		<!-- 	Galaxy Z Fold5 --> 
+	<product name="q5qksx"/>
+	<product name="q5qxser"/>
+	<product name="q5qxeea"/>
+	<product name="q5qxtur"/>
+	<product name="q5qcsx"/>
+	<product name="q5qxxx"/>
+	<product name="q5quew"/>
+	<product name="q5qzhx"/>
+	<product name="q5qsqw"/>
+	<product name="SC-55D"/>
+	<product name="SCG22_jp_kdi"/>
+		<!-- Flip5 --> 
+	<product name="b5qxxx"/>
+	<product name="b5qcsx"/>
+	<product name="b5qsqw"/>
+	<product name="b5qsqw"/>
+	<product name="b5quew"/>
+	<product name="b5qxtur"/>
+	<product name="b5qxeea"/>
+	<product name="b5qzhx"/>
+	<product name="b5qksx"/>
+	<product name="SC-54D"/>
+	<product name="SCG23_jp_kdi"/>
+</device>
